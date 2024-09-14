@@ -1,0 +1,98 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "types": [
+      "next-auth",
+      "react-dom/client",
+      "node",
+      "chart.js",
+      "zustand",
+      "express",
+      "swagger-jsdoc",
+      "swagger-ui-express",
+      "sharethis"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@middleware/*": [
+        "src/middleware/*"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "next.config.js",
+    "tailwind.config.js",
+    "pages/**/*.js",
+    "pages/**/*.ts",
+    "pages/**/*.jsx",
+    "pages/**/*.tsx",
+    "components/**/*.js",
+    "components/**/*.ts",
+    "components/**/*.jsx",
+    "components/**/*.tsx",
+    "utils/**/*.js",
+    "utils/**/*.ts",
+    "utils/**/*.jsx",
+    "utils/**/*.tsx",
+    "middleware/**/*.js",
+    "middleware/**/*.ts",
+    "middleware/**/*.jsx",
+    "middleware/**/*.tsx",
+    "lib/**/*.js",
+    "lib/**/*.ts",
+    "lib/**/*.jsx",
+    "lib/**/*.tsx",
+    "app/**/*.js",
+    "app/**/*.ts",
+    "app/**/*.jsx",
+    "app/**/*.tsx",
+    "config/**/*.js",
+    "config/**/*.ts",
+    "config/**/*.jsx",
+    "config/**/*.tsx",
+    "styles/**/*.js",
+    "styles/**/*.ts",
+    "styles/**/*.jsx",
+    "styles/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
