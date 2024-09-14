@@ -1,0 +1,51 @@
+{
+  "name": "fitness-tracker-app",
+  "version": "1.0.0",
+  "description": "A web application for setting fitness goals, tracking progress, and staying motivated.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "format": "prettier --write \"**/*.{js,ts,jsx,tsx,json,css,md}\"",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coslynx/fitness-tracker-app.git"
+  },
+  "author": "CosLynx",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/coslynx/fitness-tracker-app/issues"
+  },
+  "homepage": "https://github.com/coslynx/fitness-tracker-app#readme",
+  "dependencies": {
+    "@next-auth/jwt": "^4.24.7",
+    "@sentry/node": "8.30.0",
+    "@supabase/supabase-js": "2.45.4",
+    "chart.js": "4.4.4",
+    "express": "4.21.0",
+    "next": "14.2.11",
+    "next-auth": "4.24.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sharethis": "^4.0.12",
+    "supabase": "1.192.5",
+    "swagger-jsdoc": "6.2.8",
+    "swagger-ui-express": "5.0.1",
+    "zustand": "4.5.5"
+  },
+  "devDependencies": {
+    "@testing-library/react": "16.0.1",
+    "autoprefixer": "10.4.20",
+    "cypress": "13.14.2",
+    "eslint": "9.10.0",
+    "jest": "29.7.0",
+    "postcss": "8.4.45",
+    "prettier": "3.3.3",
+    "tailwindcss": "3.4.11",
+    "typescript": "^5.2.2"
+  }
+}
